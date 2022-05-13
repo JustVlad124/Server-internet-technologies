@@ -1,7 +1,5 @@
 var express = require('express');
 var app = express();
-var fs = require("fs");
-
 
 app.get('/', function (req, res) {
     res.end("Hello " + req.query.name + ", today is " + Date());
